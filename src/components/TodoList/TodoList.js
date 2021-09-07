@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import { TodoForm, TodoItem } from ".";
-import { getTodos } from "../utils";
+import { TodoForm } from "../TodoForm/TodoForm";
+import { TodoItem } from "../TodoItem/TodoItem";
+import  getTodos  from "../../utils/getTodos";
 import './TodoList.css'
 
 function TodoList() {

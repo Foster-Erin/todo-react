@@ -7,10 +7,13 @@
     margin-bottom: 0.5em;
     padding: 0.25em 0.5em;
     border: solid 1px black;
+    background-image: linear-gradient(to right, rgb(155, 255, 232),rgb(234, 255, 98),  rgb(232, 91, 254));
 
 }
 .TodoItem button + button {
     margin-left: 0.5em;
+    border: solid white 2px
+    /* padding: 30px; */
 }
 
 .TodoItem.complete .todo{
